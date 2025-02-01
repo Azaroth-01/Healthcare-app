@@ -18,7 +18,6 @@ import { SelectItem } from "../ui/select";
 import Image from "next/image";
 import {FileUploader} from "../FileUploader";
 
-
 const RegisterForm = ({ user }: { user: User }) => {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
